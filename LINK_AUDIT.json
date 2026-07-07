@@ -1,0 +1,21 @@
+{
+  "html_files": 14,
+  "href_count": 511,
+  "missing_internal_files": [],
+  "missing_anchors": [],
+  "placeholder_links": [],
+  "external_href_count": 11,
+  "routing_fallback_folders": [
+    "the-basics",
+    "original-medicare",
+    "medicare-advantage",
+    "part-d",
+    "med-supp",
+    "ancillary",
+    "aca",
+    "about-us",
+    "contact-us",
+    "privacy-policy",
+    "terms-of-service"
+  ]
+}
