@@ -1,70 +1,147 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Original Medicare | The MacCalla Agency</title>
-<meta name="description" content="Original Medicare explained: Part A, Part B, what it covers, and where coverage gaps can exist.">
+<title>Original Medicare (Parts A & B) | The MacCalla Agency</title>
+<meta name="description" content="What Original Medicare covers, what it doesn't, and how Parts A and B work — explained simply by The MacCalla Agency.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-
-<a class="skip-link" href="#main">Skip to content</a>
-<div class="top-strip"><div class="container"><span><strong>Local Medicare guidance</strong> in Titusville, Florida</span><span class="hide-small">Call 321-382-4787 to schedule</span></div></div>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html" aria-label="The MacCalla Agency home"><img src="assets/maccalla-logo.webp" alt="The MacCalla Agency"></a>
-    <button class="menu-btn" type="button" data-menu-button aria-expanded="false" aria-controls="primary-navigation">Menu</button>
-    <nav id="primary-navigation" class="main-nav" data-main-nav aria-label="Main navigation">
-      <a href="index.html" class="">Home</a>
-      <div class="drop"><button class="drop-toggle active" type="button" aria-expanded="false">Medicare</button><div class="drop-menu"><a href="the-basics.html" class="">Medicare Basics</a><a href="original-medicare.html" class="active">Original Medicare</a><a href="medicare-advantage.html" class="">Medicare Advantage</a><a href="part-d.html" class="">Part D</a><a href="med-supp.html" class="">Medicare Supplement</a><a href="ancillary.html" class="">Additional Services</a><a href="aca.html" class="">Under 65 / ACA</a></div></div>
-      <a href="aca.html" class="">Under 65</a>
-      <a href="about-us.html" class="">About</a>
-      <a href="contact-us.html" class="">Contact</a>
-    </nav>
-    <div class="header-actions"><a class="btn btn-light btn-small" href="tel:+13213824787">Call</a><a class="btn btn-primary btn-small" href="contact-us.html">Schedule</a></div>
+<a class="skip" href="#main">Skip to content</a>
+<a class="callbar" href="tel:+13213824787"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .7-.2 1l-2.3 2.2z"/></svg> Call 321-382-4787</a>
+<div class="topbar"><strong>Local Medicare guidance</strong> in Titusville, Florida — <a href="tel:+13213824787">Call 321-382-4787</a> to schedule</div>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="/"><img src="/assets/maccalla-logo.webp" alt="The MacCalla Agency"></a>
+    <ul class="menu">
+      <li><a href="/">Home</a></li>
+      <li class="drop" tabindex="0"><span class="on">Medicare</span><div class="sub"><a href="/the-basics">Medicare Basics</a><a href="/original-medicare" aria-current="page">Original Medicare</a><a href="/medicare-advantage">Medicare Advantage</a><a href="/part-d">Part D</a><a href="/med-supp">Medicare Supplement</a><a href="/ancillary">Additional Services</a></div></li>
+      <li><a href="/aca">Under 65</a></li>
+      <li><a href="/about-us">About</a></li>
+      <li><a href="/contact-us">Contact</a></li>
+    </ul>
+    <div class="nav-ctas">
+      <a class="btn btn-ghost btn-sm" href="tel:+13213824787">Call</a>
+      <a class="btn btn-teal btn-sm" href="/contact-us">Schedule</a>
+    </div>
   </div>
 </header>
 <main id="main">
 
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <span class="kicker">Original Medicare</span>
-      <h1>Know what Part A and Part B actually cover.</h1>
-      <p class="lead">Original Medicare is the foundation, but it is not the whole picture. This page explains the basics and the common gaps people ask about.</p>
-      <div class="hero-actions"><a class="btn btn-primary" href="contact-us.html">Schedule an appointment</a><a class="btn btn-light" href="tel:+13213824787">Call 321-382-4787</a></div>
-      <div class="hero-stats"><div class="stat"><strong>Local</strong><span>Titusville office</span></div><div class="stat"><strong>Clear</strong><span>plain-language help</span></div><div class="stat"><strong>Free</strong><span>no-obligation review</span></div></div>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Parts A &amp; B</span>
+      <h1>Original Medicare</h1>
+      <p>The foundation of Medicare — but not the full picture. Parts A and B are managed by the federal government and cover a wide range of care, but not everything. Knowing what's included (and what isn't) is the key to smart decisions.</p>
     </div>
-    <div class="visual"><div class="photo-card"><img src="assets/caregiver.webp" alt="Know what Part A and Part B actually cover."></div><div class="float-note"><strong>Not sure what to choose?</strong><span>The team slows it down and explains the next step clearly.</span></div></div>
-  </div>
-</section>
-<section class="section bg-soft">
-  <div class="container grid-2" style="align-items:start">
-    <article class="content-block"><h2>Part A hospital insurance</h2><p>Part A helps cover inpatient hospital care, skilled nursing facility care after a qualifying hospital stay, hospice, and limited home health care.</p><h2>Part B medical insurance</h2><p>Part B helps cover doctor visits, outpatient care, preventive services, lab work, imaging, and certain medical equipment.</p><h2>Coverage gaps to understand</h2><p>Original Medicare does not include everything. Many people review prescription drug coverage, dental, vision, hearing, travel coverage, and protection from high out-of-pocket costs.</p><div class="pill-list"><span>Hospital care</span><span>Doctor visits</span><span>Preventive care</span><span>Coverage gaps</span></div></article>
-    <aside>
-      <div class="mini-band"><span class="eyebrow">What this page covers</span><div class="feature-list"><div class="feature"><strong>Hospital coverage questions</strong><span>Handled in a simple, plain-language appointment.</span></div><div class="feature"><strong>Doctor visit coverage</strong><span>Handled in a simple, plain-language appointment.</span></div><div class="feature"><strong>Preventive services</strong><span>Handled in a simple, plain-language appointment.</span></div><div class="feature"><strong>Costs Original Medicare may leave behind</strong><span>Handled in a simple, plain-language appointment.</span></div></div><div class="actions"><a class="btn btn-dark" href="contact-us.html">Contact the team</a></div></div>
-      <div class="resource-box" style="margin-top:18px"><h3>Need the official Medicare source?</h3><p>Use Medicare.gov for official government information on Medicare options.</p><div class="actions"><a class="btn btn-light" href="https://www.medicare.gov/" target="_blank" rel="noopener">Visit Medicare.gov</a></div></div>
-    </aside>
-  </div>
-</section>
-<section class="section-tight"><div class="container split-band grid-2"><div><span class="eyebrow">Next step</span><h2>Get help comparing this with your real situation.</h2><p class="lead">Bring prescriptions, doctors, budget questions, or family concerns, and the team can walk through the options clearly.</p></div><div class="actions"><a class="btn btn-gold" href="contact-us.html">Schedule an appointment</a><a class="btn btn-ghost" href="tel:+13213824787">Call 321-382-4787</a></div></div></section>
-
+  </section>
+  <section>
+    <div class="wrap split">
+      <img class="split-img reveal" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/TtQhloKxQxc43iD3nAC9/media/6981133866e7ca218a0c243c.jpeg" alt="Hospital care covered by Medicare Part A" loading="lazy">
+      <div>
+        <span class="eyebrow">Part A</span>
+        <h2>Hospital insurance</h2>
+        <p class="body-p">Part A helps cover care you receive while admitted to a hospital or skilled nursing facility, plus hospice and limited home health care. Most people don't pay a premium for Part A if they or their spouse paid Medicare taxes while working.</p>
+        <ul class="checks">
+          <li>Inpatient hospital stays</li>
+          <li>Skilled nursing facility care (after a qualifying hospital stay)</li>
+          <li>Hospice services</li>
+          <li>Limited home health care</li>
+        </ul>
+        <p class="note-p">Coverage is broad, but there are still deductibles and coinsurance you're responsible for.</p>
+      </div>
+    </div>
+  </section>
+  <section class="cover">
+    <div class="wrap split flip">
+      <img class="split-img reveal" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/TtQhloKxQxc43iD3nAC9/media/698115acf7a877730a57ad6e.jpeg" alt="A doctor visit covered by Medicare Part B" loading="lazy">
+      <div>
+        <span class="eyebrow">Part B</span>
+        <h2>Medical insurance</h2>
+        <p class="body-p">Part B helps cover outpatient care — doctor visits, diagnostic testing, preventive screenings, and durable medical equipment. It comes with a monthly premium, which most people pay directly from their Social Security benefits.</p>
+        <ul class="checks">
+          <li>Doctor visits and outpatient care</li>
+          <li>Preventive services (screenings, vaccines, wellness visits)</li>
+          <li>Lab work and diagnostic tests</li>
+          <li>X-rays, MRIs, CT scans</li>
+          <li>Medical equipment like walkers or oxygen tanks</li>
+        </ul>
+        <p class="note-p">After the annual deductible, Medicare pays 80% of approved costs — you're responsible for the remaining 20%.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap narrow">
+      <span class="eyebrow">The part that surprises people</span>
+      <h2>What Original Medicare doesn't cover</h2>
+      <p class="body-p">While Parts A and B cover a lot, they don't cover everything — and there's <b>no out-of-pocket maximum</b>, which means costs can keep adding up with frequent or serious medical needs.</p>
+      <ul class="crosses">
+        <li>Prescription drugs (you'll need a separate Part D plan)</li>
+        <li>Dental, vision, or hearing care</li>
+        <li>Long-term or custodial care (nursing homes, assisted living)</li>
+        <li>Coverage while traveling outside the U.S.</li>
+        <li>Protection from high out-of-pocket costs</li>
+      </ul>
+      <p class="body-p">Because of these gaps, most people add a <a href="/med-supp">Medicare Supplement plan</a> or enroll in a <a href="/medicare-advantage">Medicare Advantage plan</a> for more predictable, manageable costs.</p>
+    </div>
+  </section>
+  <section class="next">
+    <div class="wrap next-in">
+      <p>Want to see how the all-in-one alternative works?</p>
+      <a class="btn btn-clay" href="/medicare-advantage">Learn about Medicare Advantage →</a>
+    </div>
+  </section>
+  <section class="band">
+    <div class="wrap">
+      <span class="eyebrow" style="color:rgba(255,255,255,.85)">Ready when you are</span>
+      <h2>Talk through your options with someone local</h2>
+      <p>Call, email, or send the contact form — every conversation is free, friendly, and pressure-free.</p>
+      <div class="band-ctas">
+        <a class="btn btn-white" href="tel:+13213824787">Call 321-382-4787</a>
+        <a class="btn btn-line" href="/contact-us">Schedule now</a>
+      </div>
+    </div>
+  </section>
 </main>
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <div class="footer-brand"><img src="assets/maccalla-mark.webp" alt=""><div><h3>The MacCalla Agency</h3><p>Medicare made simple.</p></div></div>
-      <p>Clear Medicare and health coverage guidance from a local Titusville team.</p>
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <img src="/assets/maccalla-mark.webp" alt="The MacCalla Agency mark">
+        <h3>The MacCalla Agency</h3>
+        <p>Clear Medicare and health coverage guidance from a local Titusville team.</p>
+        <img src="https://medicareagentshub.com/images/top-rated-medicare-agent.png" alt="Top Rated Agent on Medicare Agents Hub" style="height:auto;width:120px;background:#fff;border-radius:10px;padding:6px;margin-top:6px">
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <a href="/">Home</a>
+        <a href="/the-basics">Medicare Basics</a>
+        <a href="/aca">Under 65</a>
+        <a href="/about-us">About</a>
+        <a href="/contact-us">Contact</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms-of-service">Terms &amp; Conditions</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="tel:+13213824787">321-382-4787</a>
+        <a href="mailto:melissa@machealthagency.com">melissa@machealthagency.com</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=3370%20Garden%20St%2C%20Titusville%2C%20FL%2032796">3370 Garden St, Titusville, FL 32796</a>
+        <a href="https://www.facebook.com/profile.php?id=61586480215493">Facebook</a>
+      </div>
     </div>
-    <div><h3>Pages</h3><div class="footer-links"><a href="index.html">Home</a><a href="about-us.html">About</a><a href="contact-us.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a></div></div>
-    <div><h3>Contact</h3><div class="footer-links"><a href="tel:+13213824787">321-382-4787</a><a href="mailto:melissa@machealthagency.com">melissa@machealthagency.com</a><a href="https://www.google.com/maps/dir/?api=1&destination=3370%20Garden%20St%2C%20Titusville%2C%20FL%2032796" target="_blank" rel="noopener">3370 Garden St. Titusville, FL 32796</a><a href="https://www.medicare.gov/" target="_blank" rel="noopener">Medicare.gov</a><a href="https://www.healthcare.gov/" target="_blank" rel="noopener">HealthCare.gov</a></div><div class="socials"><a href="https://www.facebook.com/855885947618382/" target="_blank" rel="noopener">Facebook</a><a href="https://www.linkedin.com/in/melissa-maccalla-5a164131" target="_blank" rel="noopener">LinkedIn</a></div></div>
+    <div class="fbot">
+      © 2026 The MacCalla Agency. All rights reserved. As a national Medicare brokerage, we work with multiple carriers to provide comprehensive plan options. Any information we provide is limited to those plans we do offer in your area. Please contact <a href="https://www.medicare.gov/">Medicare.gov</a> or 1-800-MEDICARE to get information on all of your options. This is not a complete listing of plans available in your service area. For a complete listing please contact 1-800-MEDICARE (TTY users should call 1-877-486-2048), 24 hours a day / 7 days a week or consult Medicare.gov.
+    </div>
   </div>
-  <div class="container footer-bottom"><p>© 2026 The MacCalla Agency. All rights reserved. As a national Medicare brokerage, we work with multiple carriers to provide comprehensive plan options. Any information we provide is limited to those plans we do offer in your area. Please contact <a href="https://www.medicare.gov/" target="_blank" rel="noopener">Medicare.gov</a> or 1-800-MEDICARE to get information on all of your options. This is not a complete listing of plans available in your service area. For a complete listing please contact 1-800-MEDICARE (TTY users should call 1-877-486-2048), 24 hours a day / 7 days a week or consult Medicare.gov.</p></div>
-</footer><script src="assets/site.js"></script>
+</footer>
+<script>
+  const io = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { threshold: .15 });
+  document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+</script>
 </body>
 </html>
